@@ -4,7 +4,7 @@ import numpy as np
 mnist_file = 'mnist_train_100'
 m = open(mnist_file + '.csv', encoding='utf-8')
 mnist = csv.reader(m, delimiter=',')
-fnum = 0
+fnum = 1
 
 for row in mnist:
     label = row[0]
